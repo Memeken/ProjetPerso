@@ -37,7 +37,7 @@ include "glossaire.php";
 		</div>
 	</div>
 	<div class="push">
-		<a href="" title="Rafraichir...">
+		<a href="<?php echo $_SERVER['PHP_SELF'];?>" title="Rafraichir...">
 			<input type="button" class="button" name="button" value="Glossaire aléatoire"> 
 		</a>
 	</div>	
