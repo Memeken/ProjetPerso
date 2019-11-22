@@ -37,9 +37,14 @@ include "glossaire.php";
 		</div>
 	</div>
 	<div class="push">
-		<a href="<?php echo $_SERVER['PHP_SELF'];?>" title="Rafraichir...">
-			<input type="button" class="button" name="button" value="Glossaire aléatoire"> 
-		</a>
+		<form action="" method="POST">
+			<input type="submit" class="button" name="button" value="Glossaire aléatoire"> 
+		</form>
+	<?php
+		if(isset($_POST['button'])){
+			header('Location:lexique.php');
+		}
+	?>
 	</div>	
 </body>
 </html>
