@@ -1,0 +1,116 @@
+body {
+	  background-color: black;
+  }
+
+p{
+	position: absolute;
+  color: blanchedalmond;
+  margin-left: 25px;
+  margin-right: 25px;
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.first{
+  width: 500px;
+  margin-top: 300px;
+  margin-left: 500px;
+  text-align: center; 
+}
+
+.one {
+  animation-delay: 0s;
+  animation-duration: 10s;
+  animation-name: sizeText, appearText, directionText;  
+}
+
+.two{
+  animation-delay: 10s;
+  animation-duration: 10s;
+  animation-name: sizeText, appearText, directionText; 
+}
+
+.three{
+  animation-delay: 20s;
+  animation-duration: 10s;
+  animation-name: sizeText, appearText, directionText; 
+}
+
+.four{
+  animation-delay: 30s;
+  animation-duration: 10s;
+  animation-name: sizeText, appearText, directionText; 
+}
+
+.five{
+  font-size: x-large;
+  animation-delay: 40s;
+  animation-duration: 10s;
+  animation-name: appearText2; 
+}
+
+.six{
+  animation-delay: 50s;
+  animation-duration: 60s;
+  animation-name: appearText2; 
+}
+
+@keyframes sizeText {
+  0% {
+    font-size: 10px;
+    }
+  100% {
+    font-size: 30px;
+  }
+}
+  
+@keyframes appearText{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.3;
+  }
+  60%{
+    opacity: 0.6;
+  }
+  80%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/* animation to shift the text on the left */
+@keyframes directionText{
+  0% {
+    margin-left: 0px;
+   }
+  100% {
+    margin-left: -50px;
+  }
+}
+
+@keyframes appearText2{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0.3;
+  }
+  60%{
+    opacity: 0.5;
+  }
+  80%{
+    opacity: 0.7;
+  }
+  90%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 1;
+  }
+}

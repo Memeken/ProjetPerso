@@ -1,0 +1,64 @@
+body {
+  background: url('Dumbledores-Office.jpg')  no-repeat fixed;
+  background-size: cover;    
+}
+
+h1{
+  font-family: 'Rye', cursive;
+  text-align: center;
+  text-shadow:   -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px 1px 2px #141414,
+  1px 1px 3px #141414,
+  1px 1px 5px #141414,
+  1px 1px 7px #141414,
+  1px 1px 10px #141414,
+  1px 1px 12px #141414,
+  1px 1px 18px #141414;color:rgb(243, 255, 70);
+}
+
+.img{
+  float: left;
+  margin-left: 70px;
+}
+
+.hpImg{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+/* Rotation */
+.rotate img {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+   
+.rotate img:hover {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+/* hidden text */
+.defHp{
+  opacity: 0;
+}
+
+.hpImg:hover ~.defHp{
+  transition: .5s ease-in-out;
+  opacity: 1;
+  color: gainsboro;
+  font-family: 'Pattaya', sans-serif;
+  font-size: large;
+}
+
+/* lettrine */
+p::first-letter {
+  font-family: 'Rye', cursive;
+  font-size:3.5em;
+  padding-right:0.2em;
+  float:left;
+  color:red;
+}

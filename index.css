@@ -1,0 +1,57 @@
+		body{
+			
+			background-image: radial-gradient(40% 90%, #253854 20%, #000000 90%);
+			
+		}
+		.baguette{
+			cursor: url('http://memeken.alwaysdata.net/projetMoldu/baguette3.png'), pointer; 
+		}
+		.lumos{
+			width: 40%;
+			border-radius: 400px;
+			/*border: 20px solid #fff;*/
+			  -moz-box-shadow: -20px 20px 20px -20px #aaa; 
+			  -webkit-box-shadow: -20px 20px 20px -20px #aaa; 
+			  box-shadow: -20px 20px 20px -20px #555; 
+		}
+		.lumos {
+
+			opacity: 1;
+			-webkit-animation: flash 5s;
+			animation: flash 5s;
+			animation-iteration-count: infinite;
+		}
+
+		.lorem{
+			color:white;
+		}
+
+		.lumos:hover{
+			cursor: url('http://memeken.alwaysdata.net/projetMoldu/baguette3.png'), pointer;
+
+		}
+
+		@-webkit-keyframes flash {
+			0% {
+				opacity: +20;
+			}
+			50% {
+				opacity: -10;
+			}
+			100%{
+				opacity: +20;
+			}
+		}
+
+		@keyframes flash {
+			0% {
+				opacity: +20;
+			}
+			50% {
+				opacity: -10;
+			}
+			100%{
+				opacity: +20;
+			}
+		}
+	

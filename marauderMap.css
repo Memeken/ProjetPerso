@@ -1,0 +1,59 @@
+body{
+    background-image: url('marauderMap.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#button{
+    display: block;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+
+.formule{
+    background-color: darkred; 
+    color: palegoldenrod; 
+    font-family: 'Amatic SC', cursive; 
+    font-size: x-large;
+}
+.hidden{
+    text-align: right;
+    font-family: 'Amatic SC', cursive; 
+    font-size: x-large;
+    font-weight: bold;
+    opacity:0;
+}
+.hidden:hover{
+    color: red;
+    transition:all 1s;
+    opacity:1;
+}
+
+.alert {
+    position: relative;
+    padding: 20px;
+    background-image: url('parchment.png');
+    font-family: 'Tangerine', cursive;
+    font-size: x-large;
+    background-size: cover;
+    color:brown;
+    opacity: 1;
+    transition: opacity 1s;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .closebtn {
+    margin-right: 50px;
+    color:brown;
+    font-weight: bold;
+    float: right;
+    font-size: 50px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
